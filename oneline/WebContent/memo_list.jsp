@@ -8,7 +8,9 @@
 <title>Insert title here</title>
 </head>
 <body>
+<input type="submit" value="작성" onclick="location.href='http://localhost:8080/memo/memo01.html' ">
 <%
+
 	String url = "jdbc:mysql://localhost/world?characterEncoding=UTF-8&serverTimezone=UTC";
 	String user = "root";
 	String passwd = "1234";

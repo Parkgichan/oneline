@@ -26,8 +26,8 @@
 	pstmt.setString(1,memo);
 	pstmt.executeUpdate();
 	pstmt.close();
-	con.close();
-	out.println("데이터 추가 성공");
+	con.close();	
 %>
+<script>location.href="memo_list.jsp"</script>
 </body>
 </html>
