@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+  <meta charset="EUC-KR">
+  <title>회원 가입하기</title>
+</head>
+<body>
+  <form>
+     <h1>기찬샵</h1>
+     <br>
+    <fieldset>
+      <legend>회원가입하기</legend>
+      <ul>
+        <li>
+          <label for="userid">아이디</label>
+          <input id="userid" name="userid" type="text" required autofocus>
+        </li>
+        <li>
+          <label for="pwd1">비밀번호</label>
+          <input id="pwd1" name="pwd1" type="password"  required>
+        </li>
+        <li>
+          <label for="pwd2">비밀번호 확인</label>
+          <input id="pwd2" name="pwd2" type="password" required>
+        </li>  
+        <li>
+          <label for="level">생년 월일</label>
+           <input type = "date" min = "1990-01-01" max = "2020-01-01" name= step = "7">
+        </li>
+        <li>
+          <label for="fullname">이름</label>
+          <input id="fullname" name="fullname" type="text" placeholder="5자미만 공백없이" required> 
+      </ul>
+    </fieldset>
+    <fieldset>
+      <input type="submit" value = "회원가입">
+      <input type="reset" value = "다시쓰기">
+    </fieldset>
+  </form>
+</body>
+</html>
